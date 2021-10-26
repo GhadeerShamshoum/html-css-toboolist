@@ -70,20 +70,38 @@ body{
     font-size: 20px;
 }
 
-.true_false{
-    height: 20px;
+.positive, .negative{
+    padding: 1px 5px;
+    border: 1px solid;
+    border-radius: 50%;
 }
 
-.true_false img{
-    height: 100%;
+.positive{
+    color: green;
+    border-color: green;
+  
 }
 
 
-.button-blu{
+
+
+.button-blu, .button-viola{
     height: 30px;
     width: 80px;
     border: none;
     color: white;
-    background-color: rgb(0, 183, 255);
     border-radius: 5%;
+}
+
+.button-blu{
+    background-color: rgb(0, 183, 255);
+    
+}
+
+.button-viola{
+    background-color: rgb(162, 0, 255);
+    
+
+.sections{
+    margin-bottom: 20px;
 }
