@@ -17,7 +17,7 @@ body{
     display: inline-block;
 }
 
-#logo-img, #logo-text{
+#logo-img, #logo-text, img, .trueFalseText{
     vertical-align: middle;
     height: 100px;
     line-height: 50px; 
@@ -31,10 +31,7 @@ body{
     width: 80%;
     height: 64px;
     background-color: white;
-    margin: auto;
-    
-
-   
+    margin: auto; 
 }
 
 .buttons{
@@ -46,7 +43,7 @@ body{
     
 }
 
-.button-blu, .button-white{
+.button1, .button2{
     border:none;
     border-radius: 10%;
     height: 32px;
@@ -54,14 +51,15 @@ body{
 
 }
 
-.button-blu{
+.button1{
     color: white;
     background-color: rgb(52, 170, 248);
 }
 
-.button-white{
+.button2{
     color: rgb(187, 181, 181);
     border:solid rgb(180, 174, 174);
+    width: 130px;
 }
 
 .options{
@@ -70,4 +68,22 @@ body{
 
 .title-options{
     font-size: 20px;
+}
+
+.true_false{
+    height: 20px;
+}
+
+.true_false img{
+    height: 100%;
+}
+
+
+.button-blu{
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    border-radius: 5%;
 }
