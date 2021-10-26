@@ -18,10 +18,10 @@ body{
     display: inline-block;
 }
 
-#logo-img, #logo-text, img, .trueFalseText{
-    vertical-align: middle;
+#logo-img{
     height: 100px;
-    line-height: 50px; 
+    line-height: 80px; 
+    vertical-align: middle;
 }
 
 #logo-text{
@@ -51,8 +51,7 @@ p{
     width: 100%;
     padding: 20px;
     margin: 10px;
-    border-radius: top:10px ;
-    
+    border-radius:10px ;   
 }
 
 .button1, .button2{
