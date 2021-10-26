@@ -32,6 +32,13 @@ body{
     height: 64px;
     background-color: white;
     margin: auto; 
+    vertical-align: middle;
+    line-height: 50px; 
+    
+}
+
+p{
+    margin-bottom: 20px;
 }
 
 .buttons{
@@ -82,15 +89,20 @@ body{
   
 }
 
+.negative{
+    color: red;
+    border-color: red;
+}
 
 
 
-.button-blu, .button-viola{
+
+.button-blu, .button-viola, .button-green{
     height: 30px;
     width: 80px;
     border: none;
     color: white;
-    border-radius: 5%;
+    border-radius: 20%;
 }
 
 .button-blu{
@@ -100,7 +112,11 @@ body{
 
 .button-viola{
     background-color: rgb(162, 0, 255);
+}
     
+.button-green{
+    background-color: green;
+}
 
 .sections{
     margin-bottom: 20px;
