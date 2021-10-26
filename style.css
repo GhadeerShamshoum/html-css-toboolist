@@ -11,6 +11,7 @@ body{
 }
 
 #header-logo{
+    background-color: white;
     width: 100%;
     height: 100px;
     padding: 5px;
@@ -37,6 +38,10 @@ body{
     
 }
 
+.options{
+    padding: 20px;
+}
+
 p{
     margin-bottom: 20px;
 }
@@ -52,7 +57,7 @@ p{
 
 .button1, .button2{
     border:none;
-    border-radius: 10%;
+    border-radius: 30px;
     height: 32px;
     width: 112px;
 
@@ -97,12 +102,12 @@ p{
 
 
 
-.button-blu, .button-viola, .button-green{
+.button-blu, .button-viola, .button-green, .button-orange, .button-pink, .button-green2{
     height: 30px;
     width: 80px;
     border: none;
     color: white;
-    border-radius: 20%;
+    border-radius: 30px;
 }
 
 .button-blu{
@@ -115,9 +120,21 @@ p{
 }
     
 .button-green{
-    background-color: green;
+    background-color: rgb(17, 207, 160);
 }
 
 .sections{
     margin-bottom: 20px;
+}
+
+.button-orange{
+    background-color: orange;
+}
+
+.button-pink{
+    background-color: orchid;
+}
+
+.button-green2{
+    background-color: rgb(158, 209, 124);
 }
