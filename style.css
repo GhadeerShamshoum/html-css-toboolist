@@ -18,7 +18,8 @@ body{
     display: inline-block;
 }
 
-#logo-img{
+#logo-img,
+#logo-text{
     height: 100px;
     line-height: 80px; 
     vertical-align: middle;
